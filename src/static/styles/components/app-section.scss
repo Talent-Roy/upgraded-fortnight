@@ -1,0 +1,93 @@
+.app_section {
+  width: 100%;
+  margin-top: 10em;
+  border-radius: 5em;
+  margin-bottom: 0;
+
+  .content_wrap {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 2em 1em;
+    padding: 0 1em;
+    background: rgba(59, 130, 246, 1);
+    border-radius: 1.8em;
+    padding-bottom: 3em;
+    z-index: 1000;
+    background-image: url("../../images/home-hero-bg-min.jpg");
+
+    &::before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background: inherit;
+      z-index: -1;
+      top: 0;
+      transform-origin: left top;
+      transform: skewY(-3deg);
+      border-radius: 1.8em;
+    }
+
+    .box {
+      width: 700px;
+    }
+
+    .text_cont {
+      text-align: center;
+
+      @media (min-width: 1280px) {
+        margin-top: 6em;
+      }
+
+      .title {
+        font-size: 2.7em;
+        font-weight: 700;
+        color: rgba(255, 255, 255, 1);
+      }
+
+      .lead {
+        font-size: 1em;
+        line-height: 1.5em;
+        color: rgba(217, 213, 251, 1);
+      }
+    }
+
+    .img_cont {
+      margin-top: -5em;
+
+      img {
+        width: 700px;
+      }
+    }
+
+    .btn_box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .get_btn {
+      width: 100%;
+      height: 50px;
+      display: flex;
+      line-height: 20px;
+      color: rgb(17, 9, 46);
+      background: #fff;
+      padding: 2.7em 2em;
+      border-radius: 10px;
+      margin: 0.5em;
+      border: 1px solid #999;
+
+      .logo {
+        left: 0 !important;
+      }
+
+      img {
+        width: 50px;
+      }
+    }
+  }
+}
