@@ -15,7 +15,10 @@ const AboutSection = () => {
           <Button className="giftcard_btn">learn more</Button>
         </div>
         <div className="img_wrap box">
-          <img src={require("../static/images/about.png")} alt="" />
+          <img
+            src={require("../static/images/about.png")}
+            alt="trade giftcards on kaapo"
+          />
         </div>
       </Paper>
     </Container>

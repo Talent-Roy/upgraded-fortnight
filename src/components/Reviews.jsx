@@ -1,16 +1,10 @@
-import React, { useRef, useState } from "react";
-// Import Swiper React components
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
-
-import "../static/styles/components/reviews.scss";
-
-// import required modules
 import { Autoplay, EffectCoverflow, Pagination } from "swiper";
+import "../static/styles/components/reviews.scss";
 
 export default function Reviews() {
   return (
@@ -46,7 +40,10 @@ export default function Reviews() {
             </blockquote>
             <div className="reviewer">
               <i>Lorem, ipsum.</i>
-              <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+              <img
+                src="https://swiperjs.com/demos/images/nature-1.jpg"
+                alt="kaapo user review"
+              />
             </div>
           </div>
         </SwiperSlide>
@@ -61,7 +58,10 @@ export default function Reviews() {
             </blockquote>
             <div className="reviewer">
               <i>Lorem, ipsum.</i>
-              <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+              <img
+                src="https://swiperjs.com/demos/images/nature-2.jpg"
+                alt="kaapo user review"
+              />
             </div>
           </div>
         </SwiperSlide>
@@ -76,7 +76,10 @@ export default function Reviews() {
             </blockquote>
             <div className="reviewer">
               <i>Lorem, ipsum.</i>
-              <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+              <img
+                src="https://swiperjs.com/demos/images/nature-3.jpg"
+                alt="kaapo user review"
+              />
             </div>
           </div>
         </SwiperSlide>
@@ -91,7 +94,10 @@ export default function Reviews() {
             </blockquote>
             <div className="reviewer">
               <i>Lorem, ipsum.</i>
-              <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+              <img
+                src="https://swiperjs.com/demos/images/nature-4.jpg"
+                alt="kaapo user review"
+              />
             </div>
           </div>
         </SwiperSlide>
@@ -106,7 +112,10 @@ export default function Reviews() {
             </blockquote>
             <div className="reviewer">
               <i>Lorem, ipsum.</i>
-              <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+              <img
+                src="https://swiperjs.com/demos/images/nature-5.jpg"
+                alt="kaapo user review"
+              />
             </div>
           </div>
         </SwiperSlide>
@@ -121,7 +130,10 @@ export default function Reviews() {
             </blockquote>
             <div className="reviewer">
               <i>Lorem, ipsum.</i>
-              <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+              <img
+                src="https://swiperjs.com/demos/images/nature-6.jpg"
+                alt="kaapo user review"
+              />
             </div>
           </div>
         </SwiperSlide>
@@ -136,7 +148,10 @@ export default function Reviews() {
             </blockquote>
             <div className="reviewer">
               <i>Lorem, ipsum.</i>
-              <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+              <img
+                src="https://swiperjs.com/demos/images/nature-7.jpg"
+                alt="kaapo user review"
+              />
             </div>
           </div>
         </SwiperSlide>
@@ -151,7 +166,10 @@ export default function Reviews() {
             </blockquote>
             <div className="reviewer">
               <i>Lorem, ipsum.</i>
-              <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+              <img
+                src="https://swiperjs.com/demos/images/nature-8.jpg"
+                alt="kaapo user review"
+              />
             </div>
           </div>
         </SwiperSlide>
@@ -166,7 +184,10 @@ export default function Reviews() {
             </blockquote>
             <div className="reviewer">
               <i>Lorem, ipsum.</i>
-              <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+              <img
+                src="https://swiperjs.com/demos/images/nature-9.jpg"
+                alt="kaapo user review"
+              />
             </div>
           </div>
         </SwiperSlide>

@@ -1,6 +1,5 @@
 import React from "react";
 import { Button } from "@mui/material";
-
 import "../static/styles/components/support.scss";
 
 export default function Support() {

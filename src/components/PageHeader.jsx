@@ -20,7 +20,10 @@ const PageHeader = ({ backgroundImage }) => (
         <Button className="hero_btn">get started</Button>
       </div>
       <div className="img_content box">
-        <img src={require("../static/images/hero.gif")} alt="" />
+        <img
+          src={require("../static/images/hero.gif")}
+          alt="About kaapo, giftcards"
+        />
       </div>
     </div>
   </div>

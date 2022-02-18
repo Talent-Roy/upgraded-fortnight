@@ -6,27 +6,27 @@ const Partners = () => {
     <div className="container partners">
       <div className="container brands_wrap">
         <div className="brand">
-          <img src={require("../static/images/apple.png")} alt="" />
+          <img src={require("../static/images/apple.png")} alt="giftcards" />
         </div>
 
         <div className="brand">
-          <img src={require("../static/images/nike.png")} alt="" />
+          <img src={require("../static/images/nike.png")} alt="giftcards" />
         </div>
 
         <div className="brand">
-          <img src={require("../static/images/google.png")} alt="" />
+          <img src={require("../static/images/google.png")} alt="giftcards" />
         </div>
 
         <div className="brand">
-          <img src={require("../static/images/amazon.png")} alt="" />
+          <img src={require("../static/images/amazon.png")} alt="giftcards" />
         </div>
 
         <div className="brand">
-          <img src={require("../static/images/sephora.png")} alt="" />
+          <img src={require("../static/images/sephora.png")} alt="giftcards" />
         </div>
 
         <div className="brand">
-          <img src={require("../static/images/nike.png")} alt="" />
+          <img src={require("../static/images/nike.png")} alt="giftcards" />
         </div>
       </div>
     </div>
