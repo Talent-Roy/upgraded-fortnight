@@ -1,5 +1,5 @@
 import React from "react";
-import { Paper, Typography, Button } from "@mui/material";
+import { Paper, Button } from "@mui/material";
 import "../static/styles/components/app-section.scss";
 
 const AppSection = () => {
