@@ -16,7 +16,7 @@ const Testimonials = () => {
           <i>Lorem, ipsum.</i>
 
           <img
-            src={require("../static/images/amazon.png")}
+            src={require("../static/images/reviewer1.jpg")}
             alt="kaapo user review"
           />
         </div>
@@ -33,7 +33,7 @@ const Testimonials = () => {
         <div className="details">
           <i>Lorem, ipsum.</i>
           <img
-            src={require("../static/images/amazon.png")}
+            src={require("../static/images/reviewer2.jpg")}
             alt="kaapo user review"
           />
         </div>
@@ -50,7 +50,7 @@ const Testimonials = () => {
         <div className="details">
           <i>Lorem, ipsum.</i>
           <img
-            src={require("../static/images/amazon.png")}
+            src={require("../static/images/reviewer3.jpg")}
             alt="kaapo user review"
           />
         </div>
