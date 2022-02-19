@@ -1,4 +1,5 @@
 import { Container, Button } from "@mui/material";
+import RubberBand from "react-reveal/RubberBand";
 import "../static/styles/components/about-section.scss";
 
 const AboutSection = () => {
@@ -10,7 +11,9 @@ const AboutSection = () => {
           <p className="lead">
             Buy and sell from over 20 countries around the world
           </p>
-          <Button className="giftcard_btn">learn more</Button>
+          <RubberBand>
+            <Button className="giftcard_btn">learn more</Button>
+          </RubberBand>
         </div>
         <div className="img_wrap box">
           <img
