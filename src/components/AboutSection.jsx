@@ -1,4 +1,4 @@
-import { Typography, Container, Paper, Button } from "@mui/material";
+import { Container, Button } from "@mui/material";
 import "../static/styles/components/about-section.scss";
 
 const AboutSection = () => {

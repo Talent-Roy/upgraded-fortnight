@@ -4,10 +4,10 @@ import AppSection from "../components/AppSection";
 import PageHeader from "../components/PageHeader";
 import Partners from "../components/Partners";
 import ServiceSection from "../components/ServiceSection";
-import Explainer from "../components/Explainer";
+// import Explainer from "../components/Explainer";
 import bckgImg from "../static/images/hero-bg.jpg";
 import Support from "../components/Support";
-import Reviews from "../components/Reviews";
+// import Reviews from "../components/Reviews";
 import Testimonials from "../components/Testimonials";
 
 const Home = () => {
@@ -18,7 +18,6 @@ const Home = () => {
       <ServiceSection />
       {/* <Reviews /> */}
       {/* <Explainer /> */}
-
       <AppSection />
       <Support />
       <Partners />
