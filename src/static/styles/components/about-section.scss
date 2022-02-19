@@ -20,6 +20,12 @@
     background-repeat: no-repeat;
     background-image: url("../../images/rope.svg");
     background-size: 105%;
+    -webkit-box-shadow: 0px 10px 10px 4px rgb(204, 204, 255) !important;
+    -moz-box-shadow: 0px 10px 10px 4px rgb(204, 204, 255) !important;
+    box-shadow: 0px 10px 10px 4px rgb(204, 204, 255) !important;
+    z-index: 1;
+    transition: box-shadow 2000s ease-out;
+    transition: 1000ms ease-out;
 
     .text_cont {
       margin-bottom: 3em;

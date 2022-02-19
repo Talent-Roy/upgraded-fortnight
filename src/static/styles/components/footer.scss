@@ -6,7 +6,7 @@
   align-items: center;
   flex-wrap: wrap;
   padding: 2em 0;
-  background: rgb(12, 9, 31, 1);
+  background: var(--primary);
   overflow: hidden;
 
   .line {

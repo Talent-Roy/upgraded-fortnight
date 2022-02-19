@@ -1,5 +1,6 @@
 import React from "react";
 import { Paper, Button } from "@mui/material";
+import Zoom from "react-reveal/Zoom";
 import "../static/styles/components/app-section.scss";
 
 const AppSection = () => {
@@ -7,10 +8,12 @@ const AppSection = () => {
     <div className="app_section">
       <Paper elevation={6} variant="div" className="content_wrap">
         <div className="img_cont box">
-          <img
-            src={require("../static/images/app2.png")}
-            alt="download kaapo app"
-          />
+          <Zoom>
+            <img
+              src={require("../static/images/app2.png")}
+              alt="download kaapo app"
+            />
+          </Zoom>
         </div>
         <div className="text_cont box">
           <h1 className="title heading_1">Join us on mobile</h1>
