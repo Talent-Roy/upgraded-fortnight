@@ -6,7 +6,7 @@
   margin-right: auto;
   width: 100%;
   height: 100%;
-  background: transparent;
+  overflow-x: hidden;
 
   .content_wrapper {
     display: flex;
@@ -14,7 +14,7 @@
     justify-content: space-around;
     align-content: center;
     flex-wrap: wrap;
-    padding: 2em 4em;
+    padding: 2em 1em;
     border-radius: 2.5em;
     background-color: rgba(240, 235, 253, 1);
     background-repeat: no-repeat;
@@ -27,27 +27,20 @@
       flex-direction: column;
       align-items: center;
       justify-items: center;
+
+      p {
+        margin-top: 0;
+        padding: 0 1em;
+        text-align: center;
+      }
     }
 
     .giftcard_btn {
       color: #fff;
       padding: 1em 3em;
       border-radius: 10px;
-      background: #f7be21;
+      background: var(--secondary);
       font-size: 1em;
-    }
-
-    .title {
-      font-size: 2em;
-      text-align: center;
-      line-height: 1.4em;
-      font-weight: 700;
-    }
-
-    .lead {
-      text-align: center;
-      padding: 0 1.5em;
-      font-size: 1.2em;
     }
 
     .box {
@@ -55,8 +48,9 @@
     }
 
     .img_wrap {
+      width: 400px;
       img {
-        width: 400px;
+        width: 100%;
       }
     }
   }

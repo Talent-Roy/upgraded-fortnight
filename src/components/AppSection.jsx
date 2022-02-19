@@ -13,7 +13,7 @@ const AppSection = () => {
           />
         </div>
         <div className="text_cont box">
-          <Typography className="title" variant="h3">
+          <Typography className="title heading_2" variant="h3">
             Join us on mobile
           </Typography>
           <p className="lead">

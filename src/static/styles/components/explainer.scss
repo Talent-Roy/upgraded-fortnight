@@ -1,31 +1,31 @@
 .explainer {
-  margin: 3em auto;
+  margin: 2em auto;
   width: 100%;
-
-  .content_wrap {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0;
-    height: fit-content;
-    background: url("../../images/hero-bg.jpg");
-  }
+  //   background: url("../../images/hero-bg.jpg");
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  padding: 0;
 
   .box {
     margin: 0 2em;
+    width: 600px;
+
+    p {
+      margin: 0.5em 0;
+      padding: 0 0.5em;
+    }
   }
 
   .slider_wrap {
     display: flex;
     justify-content: center;
     align-items: center;
-    // width: 400px;
 
     .swiper {
-      width: 300px;
+      width: 230px;
       height: 420px;
     }
 
@@ -33,10 +33,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      border-radius: 18px;
-      font-size: 22px;
-      font-weight: bold;
-      color: #fff;
+      border-radius: var(--borderRadius);
     }
 
     .swiper-slide:nth-child(1n) {

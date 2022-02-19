@@ -30,129 +30,66 @@ export default function Reviews() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="review">
-            <blockquote>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-                quidem quaerat dolore veniam tenetur labore minus voluptate,
-                harum ducimus quibusdam?
-              </p>
-            </blockquote>
-            <div className="reviewer">
-              <i>Lorem, ipsum.</i>
-              <img
-                src="https://swiperjs.com/demos/images/nature-1.jpg"
-                alt="kaapo user review"
-              />
-            </div>
+          <div className="" style={{ width: "fit-content !important" }}>
+            <img
+              src={require("../static/images/amazon-h.png")}
+              alt=""
+              style={{ width: "250px", height: "300px" }}
+            />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="review">
-            <blockquote>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-                quidem quaerat dolore veniam tenetur labore minus voluptate,
-                harum ducimus quibusdam?
-              </p>
-            </blockquote>
-            <div className="reviewer">
-              <i>Lorem, ipsum.</i>
-              <img
-                src="https://swiperjs.com/demos/images/nature-2.jpg"
-                alt="kaapo user review"
-              />
-            </div>
+          <div className="" style={{ width: "fit-content !important" }}>
+            <img
+              src={require("../static/images/amazon-h.png")}
+              alt=""
+              style={{ width: "250px", height: "300px" }}
+            />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="review">
-            <blockquote>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-                quidem quaerat dolore veniam tenetur labore minus voluptate,
-                harum ducimus quibusdam?
-              </p>
-            </blockquote>
-            <div className="reviewer">
-              <i>Lorem, ipsum.</i>
-              <img
-                src="https://swiperjs.com/demos/images/nature-3.jpg"
-                alt="kaapo user review"
-              />
-            </div>
+          <div className="" style={{ width: "fit-content !important" }}>
+            <img
+              src={require("../static/images/amazon-h.png")}
+              alt=""
+              style={{ width: "250px", height: "300px" }}
+            />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="review">
-            <blockquote>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-                quidem quaerat dolore veniam tenetur labore minus voluptate,
-                harum ducimus quibusdam?
-              </p>
-            </blockquote>
-            <div className="reviewer">
-              <i>Lorem, ipsum.</i>
-              <img
-                src="https://swiperjs.com/demos/images/nature-4.jpg"
-                alt="kaapo user review"
-              />
-            </div>
+          <div className="" style={{ width: "fit-content !important" }}>
+            <img
+              src={require("../static/images/amazon-h.png")}
+              alt=""
+              style={{ width: "250px", height: "300px" }}
+            />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="review">
-            <blockquote>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-                quidem quaerat dolore veniam tenetur labore minus voluptate,
-                harum ducimus quibusdam?
-              </p>
-            </blockquote>
-            <div className="reviewer">
-              <i>Lorem, ipsum.</i>
-              <img
-                src="https://swiperjs.com/demos/images/nature-5.jpg"
-                alt="kaapo user review"
-              />
-            </div>
+          <div className="" style={{ width: "fit-content !important" }}>
+            <img
+              src={require("../static/images/amazon-h.png")}
+              alt=""
+              style={{ width: "250px", height: "300px" }}
+            />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="review">
-            <blockquote>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-                quidem quaerat dolore veniam tenetur labore minus voluptate,
-                harum ducimus quibusdam?
-              </p>
-            </blockquote>
-            <div className="reviewer">
-              <i>Lorem, ipsum.</i>
-              <img
-                src="https://swiperjs.com/demos/images/nature-6.jpg"
-                alt="kaapo user review"
-              />
-            </div>
+          <div className="" style={{ width: "fit-content !important" }}>
+            <img
+              src={require("../static/images/amazon-h.png")}
+              alt=""
+              style={{ width: "250px", height: "300px" }}
+            />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="review">
-            <blockquote>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-                quidem quaerat dolore veniam tenetur labore minus voluptate,
-                harum ducimus quibusdam?
-              </p>
-            </blockquote>
-            <div className="reviewer">
-              <i>Lorem, ipsum.</i>
-              <img
-                src="https://swiperjs.com/demos/images/nature-7.jpg"
-                alt="kaapo user review"
-              />
-            </div>
+          <div className="" style={{ width: "fit-content !important" }}>
+            <img
+              src={require("../static/images/amazon-h.png")}
+              alt=""
+              style={{ width: "250px", height: "300px" }}
+            />
           </div>
         </SwiperSlide>
         <SwiperSlide>

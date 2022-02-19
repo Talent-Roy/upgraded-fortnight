@@ -1,19 +1,17 @@
 .page_header_cont {
   height: fit-content;
   width: 100%;
-  margin-top: -80px;
-  padding: 1em 0 0 0;
-  overflow-x: hidden;
+  margin-top: -100px;
 
   .header_content {
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-content: center;
     flex-wrap: wrap;
-    // text-align: center;
-    padding: 0 1.2em;
-    margin-top: 2.5em;
     margin-bottom: 2.5em;
+    padding-top: 4em;
+    padding-left: 0.5em;
 
     @media (min-width: 1280px) {
       .text_content {
@@ -22,13 +20,13 @@
     }
 
     .title {
-      color: rgba(255, 255, 255, 1);
-      font-size: 3.5em;
-      font-weight: 700;
-      line-height: 1.4em;
-      width: 100%;
-      padding: 0;
-      margin: 0;
+      //   color: rgba(255, 255, 255, 1);
+      //   font-size: 3em;
+      //   font-weight: 700;
+      //   line-height: 1.4em;
+      //   width: 100%;
+      //   padding: 0;
+      //   margin: 0;
 
       @media (min-width: 1280px) {
         margin-top: 1em;
@@ -42,7 +40,7 @@
 
     .lead {
       color: rgba(217, 213, 251, 1);
-      font-size: 1.3rem;
+      font-size: 1.2em;
       font-weight: 300;
       line-height: 1.9rem;
 
@@ -54,21 +52,22 @@
     }
 
     .box {
-      width: 600px;
+      width: 500px;
       padding-top: 3em;
-      position: relative;
+      overflow-x: hidden;
     }
 
     .hero_btn {
       margin-left: 15px;
-      background: #d1a21f;
+      background: #f7be21;
       padding: 1em 3em;
       color: #fff;
       font-size: 1em;
       border-radius: 10px;
+      width: 250px;
 
       @media (min-width: 1280px) {
-        margin-bottom: 3em;
+        margin-bottom: 5em !important;
         margin-left: 0;
       }
     }
@@ -76,11 +75,8 @@
 
   .img_content {
     background-position: center;
-
     @media (min-width: 1280px) {
       margin-top: 2em;
-      //   -webkit-transform: scaleX(-1);
-      //   transform: scaleX(-1);
     }
 
     img {

@@ -1,8 +1,11 @@
 .app_section {
   width: 100%;
-  margin-top: 10em;
+  margin-top: 5em;
   border-radius: 5em;
   margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 5em;
+  overflow-x: hidden;
 
   .content_wrap {
     position: relative;
@@ -10,13 +13,14 @@
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    margin: 2em 1em;
+    margin: 0 1em;
     padding: 0 1em;
     background: rgba(59, 130, 246, 1);
     border-radius: 1.8em;
     padding-bottom: 3em;
     z-index: 1000;
-    background-image: url("../../images/home-hero-bg-min.jpg");
+    // background: rgba(140, 230, 214, 1);
+    background-image: url("../../images/hero-bg.jpg");
 
     &::before {
       content: "";
@@ -43,15 +47,11 @@
       }
 
       .title {
-        font-size: 2.7em;
-        font-weight: 700;
         color: rgba(255, 255, 255, 1);
       }
 
       .lead {
-        font-size: 1em;
-        line-height: 1.5em;
-        color: rgba(217, 213, 251, 1);
+        color: var(--white);
       }
     }
 
@@ -70,16 +70,15 @@
       flex-wrap: wrap;
     }
     .get_btn {
-      width: 100%;
+      width: 250px;
       height: 50px;
       display: flex;
       line-height: 20px;
-      color: rgb(17, 9, 46);
-      background: #fff;
+      color: var(--white);
+      background: rgba(254, 171, 1, 1);
       padding: 2.7em 2em;
       border-radius: 10px;
       margin: 0.5em;
-      border: 1px solid #999;
 
       .logo {
         left: 0 !important;

@@ -1,6 +1,6 @@
 import React from "react";
 import "../static/styles/components/page-header.scss";
-import { Typography, Button } from "@mui/material";
+import { Button } from "@mui/material";
 
 const PageHeader = ({ backgroundImage }) => (
   <div
@@ -9,9 +9,9 @@ const PageHeader = ({ backgroundImage }) => (
   >
     <div className="header_content">
       <div className="text_content box">
-        <Typography variant="h1" className="title">
+        <h1 className="heading_1">
           Fast and reliable solutions at your finger tips
-        </Typography>
+        </h1>
         <p className="lead">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
           magnam nostrum quaerat assumenda culpa iste vitae quam eius inventore

@@ -1,11 +1,12 @@
 .support {
   width: 100%;
-  margin-top: 0;
+  margin-top: 2em;
   height: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin-bottom: 0 !important;
 
   .box {
     width: 600px;
@@ -19,8 +20,7 @@
     padding: 1em 1.5em;
 
     h3 {
-      font-size: 2em;
-      font-weight: 700;
+      text-align: start;
       margin: 0;
     }
 
@@ -30,10 +30,14 @@
       line-height: 1.5em;
     }
 
+    a {
+      text-decoration: none;
+    }
+
     .support_btn {
       text-decoration: none;
-      color: #fff;
-      padding: 1em 3em;
+      color: var(--white);
+      padding: 1.2em 4em;
       border-radius: 10px;
       background: #f7be21;
       font-size: 1em;

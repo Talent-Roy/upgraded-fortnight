@@ -1,5 +1,7 @@
 .partners {
-  margin: 5em auto;
+  margin: 0;
+  padding: 1.1em 0;
+  background: rgba(28, 6, 104, 0.7);
 
   h2 {
     text-transform: capitalize;
@@ -19,10 +21,12 @@
     }
 
     .brand {
-      min-width: 250px;
-      height: 200px;
+      min-width: 200px;
+      height: 250px;
       opacity: 0.5;
+      margin: 0.5em;
       transition: 1200ms;
+      z-index: 1000;
 
       &:hover {
         opacity: 1;

@@ -14,7 +14,7 @@ const Footer = () => {
     <div className="footer">
       <div className="box">
         <div className="logo">
-          <h1>Event</h1>
+          <h1 className="heading_1">Kaapo</h1>
         </div>
         <p className="lead">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti sit

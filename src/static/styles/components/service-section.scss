@@ -5,42 +5,21 @@
   flex-wrap: wrap;
   width: 100%;
 
-  .airtime {
-    background-color: rgba(235, 253, 237, 1);
-  }
-
-  .pay {
-    background-color: rgba(235, 253, 237, 1);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: fit-content;
-    width: fit-content;
-    object-fit: cover;
-  }
-
-  .redeem {
-    background-color: rgba(235, 253, 237, 1);
-    // background-image: url("../../images/redeem-rope.png");
-  }
-
-  .transfer {
-    background-color: rgba(235, 253, 237, 1);
-  }
-
   .box {
-    height: 600px;
+    height: 400px;
     width: 400px;
     padding: 1.5em 1em;
     overflow: hidden;
     border-radius: 1em;
+    padding-bottom: 4.5em;
     margin: 1em;
     position: relative;
     background-position: 105%;
     background-repeat: no-repeat;
+    background-color: rgba(235, 253, 237, 1);
 
     .service_btn {
-      color: #fff;
+      color: var(--white);
       padding: 1em 3em;
       border-radius: 10px;
       background: #f7be21;
@@ -55,6 +34,7 @@
         font-size: 2em;
         text-transform: capitalize;
         font-weight: 600;
+        color: var(--primary);
       }
     }
 
@@ -65,7 +45,7 @@
       margin: 1.5em auto;
 
       img {
-        width: 300px;
+        width: 200px;
         margin: 0 auto;
         z-index: 1000;
       }

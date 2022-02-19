@@ -8,6 +8,7 @@ import Explainer from "../components/Explainer";
 import bckgImg from "../static/images/hero-bg.jpg";
 import Support from "../components/Support";
 import Reviews from "../components/Reviews";
+import Testimonials from "../components/Testimonials";
 
 const Home = () => {
   return (
@@ -15,11 +16,13 @@ const Home = () => {
       <PageHeader backgroundImage={bckgImg} />
       <AboutSection />
       <ServiceSection />
-      <Explainer />
-      <Partners />
+      {/* <Reviews /> */}
+      {/* <Explainer /> */}
+
       <AppSection />
       <Support />
-      <Reviews />
+      <Partners />
+      <Testimonials />
     </div>
   );
 };

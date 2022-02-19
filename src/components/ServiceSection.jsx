@@ -2,11 +2,18 @@ import React from "react";
 import { Typography, Button } from "@mui/material";
 import "../static/styles/components/service-section.scss";
 import Fade from "react-reveal/Fade";
+import { styled } from "@mui/system";
+
+const FadeWrap = styled(Fade)`
+  &:hover {
+    color: "red";
+  }
+`;
 
 const ServiceSection = () => {
   return (
     <div className="service_section">
-      <Fade left duration={1500}>
+      <FadeWrap left duration={1500}>
         <div className="airtime box">
           <div className="text_cont">
             <Typography variant="h3" className="title">
@@ -22,7 +29,7 @@ const ServiceSection = () => {
             <img src={require("../static/images/hand-sim.png")} alt="" />
           </div>
         </div>
-      </Fade>
+      </FadeWrap>
 
       <Fade bottom duration={1500}>
         <div className="pay box">

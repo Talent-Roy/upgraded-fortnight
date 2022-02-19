@@ -4,11 +4,9 @@ import "../static/styles/components/about-section.scss";
 const AboutSection = () => {
   return (
     <Container className="about_sect">
-      <Paper elevation={6} className="content_wrapper">
+      <div className="content_wrapper">
         <div className="text_cont box">
-          <Typography variant="h3" className="title">
-            Enjoy Reliable Giftcard Trading
-          </Typography>
+          <h1 className="heading_2">Reliable Giftcard Trading</h1>
           <p className="lead">
             Buy and sell from over 20 countries around the world
           </p>
@@ -20,7 +18,7 @@ const AboutSection = () => {
             alt="trade giftcards on kaapo"
           />
         </div>
-      </Paper>
+      </div>
     </Container>
   );
 };
