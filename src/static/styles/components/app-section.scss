@@ -19,8 +19,8 @@
     border-radius: 1.8em;
     padding-bottom: 3em;
     z-index: 1000;
-    // background: rgba(140, 230, 214, 1);
-    background-image: url("../../images/hero-bg.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../../images//hero-bg.jpg") center center;
 
     &::before {
       content: "";

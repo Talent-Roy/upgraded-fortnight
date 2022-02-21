@@ -3,11 +3,7 @@ import "../static/styles/components/page-header.scss";
 import { Button } from "@mui/material";
 
 const PageHeader = ({ backgroundImage }) => (
-  <div
-    className="page_header_cont"
-    style={{ backgroundImage: `url(${backgroundImage})` }}
-  >
-    <div className="overlay"></div>
+  <div className="page_header_cont">
     <div className="header_content">
       <div className="text_content box">
         <h1 className="heading_1">

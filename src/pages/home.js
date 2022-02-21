@@ -13,7 +13,7 @@ import Testimonials from "../components/Testimonials";
 const Home = () => {
   return (
     <div style={{ width: "100%" }}>
-      <PageHeader backgroundImage={bckgImg} />
+      <PageHeader />
       <AboutSection />
       <ServiceSection />
       {/* <Reviews /> */}
