@@ -11,6 +11,7 @@ import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
+import { Link } from "react-router-dom";
 
 import "../static/styles/components/navbar.scss";
 
@@ -37,8 +38,8 @@ const Navbar = () => {
   };
 
   return (
-    <div className="navbar" color="red ">
-      <AppBar position="static">
+    <div>
+      <AppBar className="navbar" position="static">
         <Container maxWidth="xl">
           <Toolbar disableGutters>
             <Typography
@@ -82,7 +83,7 @@ const Navbar = () => {
                 {pages.map((page) => (
                   <MenuItem
                     style={{
-                      width: "400px",
+                      width: "430px",
                       textAlign: "center",
                       padding: "1em",
                     }}
@@ -100,7 +101,9 @@ const Navbar = () => {
               component="div"
               sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}
             >
-              kaapo
+              <Link className="homeLogo" to="/">
+                kaapo
+              </Link>
             </Typography>
             <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
               {pages.map((page) => (

@@ -4,6 +4,9 @@ import { Button } from "@mui/material";
 
 const PageHeader = ({ backgroundImage }) => (
   <div className="page_header_cont">
+    <div className="shape">
+      <img src={require("../static/images/trans-bg.png")} alt="home bg-shape" />
+    </div>
     <div className="header_content">
       <div className="text_content box">
         <h1 className="heading_1">

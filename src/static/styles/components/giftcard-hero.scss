@@ -1,0 +1,185 @@
+.giftcard_hero {
+  height: 75vh;
+  background: var(--primary)
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  .content_wrap {
+    width: 100%;
+    position: absolute;
+    top: 40vh;
+  }
+
+  h1 {
+    margin-top: 0;
+    padding-top: 0;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+    color: #fff;
+  }
+
+  // .boxes_wrap {
+  //   // background: var(--primary);
+  //   // background: -webkit-linear-gradient(to left, #090c3b, #070930);
+  //   width: 100%;
+  //   height: inherit;
+  // }
+
+  // .boxes {
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   width: 100%;
+  //   height: 100%;
+  //   overflow: hidden;
+  // }
+
+  // .boxes li {
+  //   position: absolute;
+  //   display: block;
+  //   list-style: none;
+  //   width: 30px;
+  //   height: 40px;
+  //   // background: rgba(255, 255, 255, 0.2);
+  //   animation: animate 25s linear infinite;
+  //   bottom: -20px;
+  // }
+
+  // .boxes li:nth-child(1) {
+  //   left: 25%;
+  //   width: 60px;
+  //   height: 90px;
+  //   animation-delay: 0s;
+  //   background: url("../../images/amazon-h.png") center center;
+  //   background-size: cover;
+  //   object-fit: cover;
+  //   border-radius: 5px !important;
+  // }
+
+  // .boxes li:nth-child(2) {
+  //   left: 10%;
+  //   width: 60px;
+  //   height: 90px;
+  //   animation-delay: 2s;
+  //   animation-duration: 12s;
+  //   background: url("../../images/amazon-h.png") center center;
+  //   background-size: cover;
+  //   object-fit: cover;
+
+  //   border-radius: 5px !important;
+  // }
+
+  // .boxes li:nth-child(3) {
+  //   left: 70%;
+  //   width: 60px;
+  //   height: 90px;
+  //   animation-delay: 4s;
+  //   background: url("../../images/amazon-h.png") center center;
+  //   background-size: cover;
+  //   object-fit: cover;
+
+  //   border-radius: 5px !important;
+  // }
+
+  // .boxes li:nth-child(4) {
+  //   left: 40%;
+  //   width: 60px;
+  //   height: 90px;
+  //   animation-delay: 0s;
+  //   animation-duration: 18s;
+  //   background: url("../../images/amazon-h.png") center center;
+  //   background-size: cover;
+  //   object-fit: cover;
+
+  //   border-radius: 5px !important;
+  // }
+
+  // .boxes li:nth-child(5) {
+  //   left: 65%;
+  //   width: 60px;
+  //   height: 90px;
+  //   animation-delay: 0s;
+  //   background: url("../../images/amazon-h.png") center center;
+  //   background-size: cover;
+  //   object-fit: cover;
+
+  //   border-radius: 5px !important;
+  // }
+
+  // .boxes li:nth-child(6) {
+  //   left: 75%;
+  //   width: 60px;
+  //   height: 90px;
+  //   animation-delay: 3s;
+  //   background: url("../../images/payp.png") center center;
+  //   background-size: cover;
+  //   object-fit: cover;
+
+  //   border-radius: 5px !important;
+  // }
+
+  // .boxes li:nth-child(7) {
+  //   left: 35%;
+  //   width: 60px;
+  //   height: 90px;
+  //   animation-delay: 7s;
+  //   background: url("../../images/paypa.png") center center;
+  //   background-size: cover;
+  //   object-fit: cover;
+
+  //   border-radius: 5px !important;
+  // }
+
+  // .boxes li:nth-child(8) {
+  //   left: 50%;
+  //   width: 60px;
+  //   height: 90px;
+  //   animation-delay: 15s;
+  //   animation-duration: 45s;
+  //   background: url("../../images/xbox.png") center center;
+  //   background-size: cover;
+  //   object-fit: cover;
+
+  //   border-radius: 5px !important;
+  // }
+
+  // .boxes li:nth-child(9) {
+  //   left: 20%;
+  //   width: 60px;
+  //   height: 90px;
+  //   animation-delay: 2s;
+  //   animation-duration: 35s;
+  //   background: url("../../images/niks.png") center center;
+  //   background-size: cover;
+  //   object-fit: cover;
+
+  //   border-radius: 5px !important;
+  // }
+
+  // .boxes li:nth-child(10) {
+  //   left: 85%;
+  //   width: 60px;
+  //   height: 90px;
+  //   animation-delay: 0s;
+  //   animation-duration: 11s;
+  //   background: url("../../images/ebay.png") center center;
+  //   background-size: cover;
+  //   object-fit: cover;
+  //   border-radius: 5px !important;
+  // }
+
+  // @keyframes animate {
+  //   0% {
+  //     transform: translateY(0) rotate(0deg);
+  //     opacity: 1;
+  //     border-radius: 0;
+  //   }
+
+  //   100% {
+  //     transform: translateY(-1000px) rotate(720deg);
+  //     opacity: 0;
+  //     border-radius: 50%;
+  //   }
+  // }
+}

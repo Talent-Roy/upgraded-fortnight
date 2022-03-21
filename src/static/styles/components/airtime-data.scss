@@ -1,0 +1,111 @@
+.airtime_data_cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+
+  .airtime_data_title {
+    text-align: center !important;
+    font-size: 1.7em;
+
+    @media (max-width: 640px) {
+      padding: 0 1em;
+    }
+  }
+
+  .content_cont {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+    .box {
+      width: 350px;
+      height: 250px;
+      padding: 0;
+      //   height: fit-content;
+      background-color: var(--tertiary);
+      margin: 25px 5px;
+      position: relative;
+      overflow: hidden;
+      -webkit-box-shadow: 0 0 0 rgb(0 0 0 / 8%);
+      box-shadow: 0 0 0 rgb(0 0 0 / 8%);
+      -webkit-transition: all 0.5s ease-in-out !important;
+      transition: all 0.5s ease-in-out;
+      border-radius: var(--borderRadius);
+      cursor: pointer;
+
+      &::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 4px;
+        bottom: 0;
+        left: 0;
+        background-color: var(--secondary);
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+      }
+
+      &:hover::after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+      }
+
+      .content {
+        margin-top: 0;
+        padding: 1em;
+      }
+
+      .icon {
+        margin-top: -20px;
+        padding: 0 15px;
+        font-size: 84px;
+        color: var(--primary);
+        border-radius: 4px;
+        display: block;
+        line-height: 1;
+        -webkit-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+      }
+
+      .title {
+        font-size: 1.2em;
+        font-family: var(--font-family);
+        color: var(--primary);
+        margin-bottom: 5px;
+        text-transform: capitalize;
+        -webkit-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+      }
+
+      .lead {
+        font-size: 1em;
+        line-break: loose;
+        line-height: 24px;
+        font-weight: 400;
+        color: rgb(131, 131, 131);
+        padding: 0;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      h3 {
+        font-size: 1em;
+        font-family: var(--font-family);
+        color: #000;
+      }
+    }
+  }
+
+  .airtime_btn {
+    margin: 2em auto;
+    width: 300px;
+    color: var(--white);
+  }
+}

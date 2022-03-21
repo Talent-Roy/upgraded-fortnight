@@ -1,0 +1,51 @@
+.convert_cont {
+  width: 100%;
+  background: var(--primary);
+  background: -webkit-linear-gradient(to left, #090c3b, #070930);
+  padding: 1em 0;
+  margin: 1em auto;
+
+  .content {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 600px;
+    padding: 0 1em;
+
+    @media (max-width: 640px) {
+      width: 500px;
+    }
+
+    .title {
+      color: var(--white);
+      font-size: 1.8em;
+    }
+
+    .subtitle {
+      color: var(--white);
+    }
+
+    .list {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+
+      span {
+        display: flex;
+        align-items: center;
+        margin: 0;
+        .icon {
+          color: var(--secondary);
+          border-radius: 50%;
+        }
+
+        p {
+          color: var(--white);
+        }
+      }
+    }
+  }
+}

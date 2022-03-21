@@ -1,0 +1,140 @@
+.btn_outlined {
+  position: absolute;
+  transform: translatey(60px);
+  -webkit-appearance: none;
+  border: none;
+  background: none;
+  width: 250px;
+  height: 50px;
+  font-size: 15px;
+  padding: 0 0.5em;
+  margin: 0;
+  outline: none;
+  z-index: 10;
+  left: 20%;
+  text-transform: uppercase;
+
+  .btn_link_wrap {
+    text-decoration: none;
+  }
+}
+
+.btn_outlined span {
+  display: block;
+  position: relative;
+  line-height: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.btn_outlined > span:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 40%;
+  height: 0;
+
+  border: 2px solid var(--secondary);
+  border-left: none;
+  border-bottom: none;
+
+  transition: height 0.15s ease-out, width 0.15s ease-out 0.15s;
+}
+
+.btn_outlined:hover > span:after {
+  width: calc(50% - 1px);
+  height: calc(100% - 2px);
+  transition: width 0.15s ease-out, height 0.15s ease-out 0.15s;
+}
+
+.btn_outlined > span:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 50%;
+  width: 40%;
+  height: 0;
+
+  border: 2px solid var(--secondary);
+  border-right: none;
+  border-bottom: none;
+
+  transition: height 0.15s ease-out, width 0.15s ease-out 0.15s;
+}
+
+.btn_outlined:hover > span:before {
+  width: calc(50% - 1px);
+  height: calc(100% - 2px);
+  transition: width 0.15s ease-out, height 0.15s ease-out 0.15s;
+}
+
+.btn_outlined > span > span:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0%;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.btn_outlined:hover > span > span:before {
+  opacity: 1;
+  border-bottom: 2px solid var(--secondary);
+  width: calc(50%);
+  height: 1px;
+  transition: opacity 0s ease-out 0.29s, width 0.15s ease-out 0.3s;
+}
+
+.btn_outlined > span > span:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0%;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.btn_outlined:hover > span > span:after {
+  opacity: 1;
+  border-bottom: 2px solid var(--secondary);
+  width: calc(50%);
+  height: 1px;
+  transition: opacity 0s ease-out 0.29s, width 0.15s ease-out 0.3s;
+}
+
+.btn_outlined > span > span > span {
+  transition: color 0.15s ease-out 0.3s;
+  //   color: transparent;
+}
+
+.btn_outlined:hover > span > span > span {
+  color: var(---white);
+}
+
+.btn_outlined > span > span > span:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #1f2e4d;
+  content: attr(data-attr-span);
+  color: var(---white);
+  width: 0%;
+  height: 100%;
+  background: white;
+  white-space: nowrap;
+  text-align: center;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  transition: width 0.2s;
+}
+
+.btn_outlined :hover > span > span > span:after {
+  width: 100%;
+}

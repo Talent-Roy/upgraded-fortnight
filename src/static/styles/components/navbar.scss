@@ -1,5 +1,12 @@
 .navbar {
-  z-index: 1000;
+  z-index: 5000;
   width: 100% !important;
   background: var(--primary) !important;
+  margin-bottom: 0;
+
+  .homeLogo {
+    text-decoration: none;
+    color: var(--white);
+    cursor: pointer;
+  }
 }

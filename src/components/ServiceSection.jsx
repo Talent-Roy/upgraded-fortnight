@@ -1,50 +1,63 @@
 import React from "react";
-import { Typography, Button } from "@mui/material";
+import { Typography } from "@mui/material";
+// import { } from "@mui/icons-material";
 import "../static/styles/components/service-section.scss";
 import Fade from "react-reveal/Fade";
-import { styled } from "@mui/system";
+import ButtonOutlined from "./utils/buttons/ButtonOutlined";
 
-const FadeWrap = styled(Fade)`
-  &:hover {
-    color: "red";
-  }
-`;
-
-const ServiceSection = () => {
+const ServiceSection = ({
+  title1,
+  subtitle1,
+  icon1,
+  cta1,
+  cta1Link,
+  title2,
+  subtitle2,
+  cta2,
+  cta2Link,
+  icon2,
+  title3,
+  subtitle3,
+  cta3,
+  cta3Link,
+  icon3,
+}) => {
   return (
     <div className="service_section">
-      <FadeWrap left duration={1500}>
+      <Fade left duration={1500}>
         <div className="airtime box">
           <div className="text_cont">
             <Typography variant="h3" className="title">
-              top up on the go
+              {title1}
             </Typography>
-            <p className="lead">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequuntur, culpa.
-            </p>
-            <Button className="service_btn">learn more</Button>
+            <p className="lead">{subtitle1}</p>
+            <ButtonOutlined
+              className="card_btn"
+              ctaLink={cta1Link}
+              ctaText={cta1}
+            />
           </div>
-          <div className="img_cont">
-            <img src={require("../static/images/hand-sim.png")} alt="" />
+          <div className="icon_wrap">
+            <span className="icon">{icon1}</span>
           </div>
         </div>
-      </FadeWrap>
+      </Fade>
 
       <Fade bottom duration={1500}>
         <div className="pay box">
           <div className="text_cont">
             <Typography variant="h3" className="title">
-              pay utility bills
+              {title2}
             </Typography>
-            <p className="lead">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequuntur, culpa.
-            </p>
-            <Button className="service_btn">learn more</Button>
+            <p className="lead">{subtitle2}</p>
+            <ButtonOutlined
+              className="card_btn"
+              ctaLink={cta2Link}
+              ctaText={cta2}
+            />
           </div>
-          <div className="img_cont">
-            <img src={require("../static/images/pay.png")} alt="" />
+          <div className="icon_wrap">
+            <span className="icon">{icon2}</span>
           </div>
         </div>
       </Fade>
@@ -53,16 +66,17 @@ const ServiceSection = () => {
         <div className="transfer box">
           <div className="text_cont">
             <Typography variant="h3" className="title">
-              transfer and recieve
+              {title3}
             </Typography>
-            <p className="lead">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequuntur, culpa.
-            </p>
-            <Button className="service_btn">learn more</Button>
+            <p className="lead">{subtitle3}</p>
+            <ButtonOutlined
+              className="card_btn"
+              ctaLink={cta3Link}
+              ctaText={cta3}
+            />
           </div>
-          <div className="img_cont">
-            <img src={require("../static/images/wallet.png")} alt="" />
+          <div className="icon_wrap">
+            <span className="icon">{icon3}</span>
           </div>
         </div>
       </Fade>

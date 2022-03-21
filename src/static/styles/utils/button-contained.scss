@@ -1,0 +1,18 @@
+.btn_contained {
+  background: var(--secondary);
+  margin: 1.5em 0.5em;
+  width: 250px;
+  height: 50px;
+  font-size: 15px;
+  padding: 1em 0.5em;
+  border: none;
+  text-transform: uppercase;
+
+  span {
+    color: var(--white);
+  }
+
+  .btn_link_wrap {
+    text-decoration: none;
+  }
+}

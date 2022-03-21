@@ -13,7 +13,7 @@ export default function Support() {
           qui laboriosam odit tempora ab, doloribus obcaecati iusto quaerat nam.
         </p>
         <Headshake>
-          <a className="" href="/">
+          <a className="" href={`tel:${+2348163031912}`}>
             <Button className="support_btn">Call now</Button>
           </a>
         </Headshake>
