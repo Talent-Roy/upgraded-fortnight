@@ -1,4 +1,4 @@
-import { Container, Button } from "@mui/material";
+import { Container } from "@mui/material";
 import RubberBand from "react-reveal/RubberBand";
 import { Link } from "react-router-dom";
 import "../static/styles/components/info-section.scss";

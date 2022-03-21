@@ -22,6 +22,7 @@ export default function RateCalc() {
 
   const selectChanged = ({ target: { value } }) => {
     setSelectedCard(cardNameRef.current.value);
+    console.log(selectedCard);
 
     setCurrency(giftCards.find((x) => x.name === value));
     console.log(giftCards);
@@ -30,6 +31,7 @@ export default function RateCalc() {
   const targetChanged = ({ target: { value } }) => {
     setCurrSelected(currTypeRef.current.value);
     console.log(currSelected);
+    setCardType("just a string so it builds on netlify");
   };
 
   React.useEffect(() => {

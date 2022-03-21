@@ -1,5 +1,4 @@
 import React from "react";
-import GiftcardSampleHero from "../components/GiftcardSampleHero";
 import Hero from "../components/Hero";
 import InfoSection from "../components/InfoSection";
 

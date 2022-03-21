@@ -32,7 +32,7 @@ const Signup = () => {
 
   return (
     <div className="reg_cont">
-      {/* {currentUser.email} */}
+      {currentUser.email}
       <form onSubmit={handleSubmit}>
         <h2 className="title">Register</h2>
         {error && (

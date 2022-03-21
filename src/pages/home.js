@@ -1,7 +1,6 @@
 import React from "react";
 import InfoSection from "../components/InfoSection";
 import AppSection from "../components/AppSection";
-import Hero from "../components/Hero";
 import Partners from "../components/Partners";
 import ServiceSection from "../components/ServiceSection";
 // import Explainer from "../components/Explainer";
@@ -12,7 +11,6 @@ import {
   SimCardAlert,
   AccountBalanceWalletOutlined,
   MoneyOff,
-  TransferWithinAStationRounded,
 } from "@mui/icons-material";
 import GiftCardHero from "../components/GiftCardHero";
 

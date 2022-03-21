@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import { useAuth } from "../context/UserContext";
 import "../static/styles/components/login.scss";
-import { Alert, AlertTitle, Card, FormControl } from "@mui/material";
+import { Alert, AlertTitle } from "@mui/material";
 import { Link, useNavigate } from "react-router-dom";
 
 const Login = () => {
